@@ -1,0 +1,147 @@
+#title{
+  background-color:#e32323;
+  color:white;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    /* font-size: 20px; */
+}
+.navbar-brand:hover{
+ color: black;
+}
+img, svg {
+    margin: 20px 0 0 50px;
+    vertical-align: middle;
+}
+h1{
+  font-family: Open Sans;
+  font-size: 60px;
+    line-height: 80px;
+    margin: 40px 0 50px 0;
+}
+h3{
+  font-family: Montserrat;
+  font-size: 20px;
+  margin: 25px 0 5px 0;
+}
+p{
+  color: grey;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.fa-google-play:before {
+    content: "\f3ab";
+    margin: 0 5px 0 -3px;
+}
+.fa-apple:before {
+    content: "\f179";
+    margin: 0 8px 0 -5px;
+  }
+.navbar-brand{
+  font-size: 50px;
+}
+.x{
+  margin: 50px 0 50px 15px;
+}
+.im{
+    width: 20%;
+  transform:rotate(25deg);
+  position: absolute;
+  left:60%;
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+  padding: 3%;
+}
+.icon{
+  color:red;
+}
+.icon:hover{
+  color:#8b001a;
+}
+
+#testimonials{
+  color: white;
+  text-align: center;
+  background-color:#e32323;
+  padding: 7% 15%;
+}
+h2{
+  font-family: Montserrat;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin: -15px 0 15px 0;
+}
+.dpg{
+  border-radius: 75%;
+  width: 25%;
+  margin: 20px;
+}
+#press{
+  text-align: center;
+  background-color: #e32323;
+  padding-bottom:3%;
+}
+.lg{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+    height:500px;
+}
+#pricing{
+      padding: 40px 100px;
+}
+.small{
+      margin: 33px 0 6px 0px;
+}
+.prof{
+  text-decoration: none;
+  color: black;
+}
+.prof:hover{
+  color: #e32323;
+}
+@media (max-width : 1000px){
+  #title{
+    text-align: center;
+  }
+
+  .im{
+    transform: rotate(0);
+    position: static;
+    width: 50%;
+  }
+}
+
+#cta{
+  text-align: center;
+  background-color:  #e32323;
+  color: white;
+  padding: 7% 15%;
+}
+.foot{
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#footer{
+  text-align: center;
+}
+.fb{
+  margin: 20px 10px;
+  image-resolution: 50%;
+}
+.insta{
+  color: pink;
+}
+.whatsapp{
+  color: green;
+}
